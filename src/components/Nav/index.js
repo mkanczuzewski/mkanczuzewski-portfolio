@@ -11,26 +11,24 @@ function Nav() {
         </h2>
         <nav>
             <ul className="flex-row">
-            <li className="mx-2">
-                <a href="#about">
-                    <span>About me</span>
-                </a>
-            </li>
-            <li className="mx-2">
-                <a href="#contact">
+                <li className="mx-2">
+                    <a href="#about">
+                        <span>About me</span>
+                    </a>
+                </li>
+                <li className="mx-2">
+                    <a href="#portfolio">
+                        <span>Portfolio</span>
+                    </a>
+                </li>
+                <li className="mx-2">
+                    <a href="#resume">
+                        <span>Resume</span>
+                    </a>
+                </li>
+                <li className="mx-2">
                     <span>Contact</span>
-                </a>
-            </li>
-            <li className="mx-2">
-                <a href="#portfolio">
-                    <span>Portfolio</span>
-                </a>
-            </li>
-            <li className="mx-2">
-                <a href="#resume">
-                    <span>Resume</span>
-                </a>
-            </li>
+                </li>
             </ul>
         </nav>
     </header>
