@@ -6,8 +6,8 @@ main {
 }
 
 :root {
-  --primary: #8c54ff;
-  --secondary: #484bff;
+  --primary: #5500ff;
+  --secondary: #00028a;
   --tertiary: #00e1ff;
   --light: #fafafa;
   --dark: #000000;
@@ -123,7 +123,7 @@ nav  li {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content:center;
   background: var(--secondary-color);
   color: var(--primary-color);
   /* width: 400px;  */
@@ -208,4 +208,66 @@ button[disabled] {
 
 .contactInfo h5 {
   margin: 5px;
+}
+
+/* Resume */
+.resume {
+  text-align: center;
+
+}
+
+.education {
+  text-align: center;
+  color: var(--primary);
+}
+
+table {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+th {
+  color: var(--secondary);
+  font-size: 2rem;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.experience {
+  text-align: center;
+  color: var(--primary);
+}
+
+.job {
+  padding: 15px 100px;
+}
+
+.job-title {
+  font-size: 30px;
+}
+.company {
+  font-size: 25px;
+}
+.address {
+  font-size: 15px;
+  font-style: italic;
+}
+.dates-emp {
+  font-style: italic;
+  text-align: right;
+}
+.description {
+  font-size: 15px;
+}
+
+.achievements ul {
+  list-style: none;
+  line-height: 1.5;
+}
+
+.achievements li::before  {
+  content: "•"; 
+  color: var(--primary-color);
 }

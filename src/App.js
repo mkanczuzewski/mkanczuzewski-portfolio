@@ -10,6 +10,7 @@ import About from './components/About';
 // import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
+import Resume from './components/Resume';
 
 class App extends Component {
   render() {
@@ -32,9 +33,9 @@ class App extends Component {
                       <li className="mx-2">
                           <NavLink to="/portfolio">Portfolio</NavLink>
                       </li>
-                      {/* <li className="mx-2">
+                      <li className="mx-2">
                           <NavLink to="/resume">Resume</NavLink>
-                      </li> */}
+                      </li>
                       <li className="mx-2">
                           <NavLink to="/contactform">Contact</NavLink>
                       </li>
@@ -47,6 +48,7 @@ class App extends Component {
             <Routes>
               <Route path="/" element={<About />} />
               <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/resume" element={<Resume />} />
               <Route path="/contactform" element={<ContactForm />} />
             </Routes>
             </div>
