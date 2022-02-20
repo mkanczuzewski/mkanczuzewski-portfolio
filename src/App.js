@@ -53,6 +53,13 @@ class App extends Component {
             </Routes>
             </div>
           </main>
+          <footer>
+            <ul className="flex-row">
+              <li className="mx-2"><h2><a href="https://github.com/mkanczuzewski">GitHub</a></h2></li>
+              <li className="mx-2"><h2><a href="https://www.linkedin.com/in/mark-kanczuzewski-45114810/">LinkedIn</a></h2></li>
+              <li className="mx-2"><h2><a href="https://stackoverflow.com/users/16797037/mark-kanczuzewski">Stackoverflow</a></h2></li>
+            </ul>
+          </footer>
         </div>
       </HashRouter>
     );
