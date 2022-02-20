@@ -23,7 +23,7 @@ class App extends Component {
                   <span role="img" aria-label="computer"> 🖥️</span> Mark Kanczuzewski
                   </a>
               </h2>
-              <nav>
+              <nav className="navbar">
                   <ul className="flex-row">
                       <li className="mx-2">
                           <NavLink to="/">About</NavLink>
