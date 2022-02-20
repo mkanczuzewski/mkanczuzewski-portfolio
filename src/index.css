@@ -8,7 +8,7 @@ main {
 :root {
   --primary: #8c54ff;
   --secondary: #484bff;
-  --tertiary: #000000;
+  --tertiary: #00e1ff;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -49,7 +49,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 span[role="img"] {
@@ -76,8 +76,8 @@ nav  li {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
+  
 }
 
 .mx-2 {
@@ -126,7 +126,7 @@ nav  li {
   justify-content: flex-start;
   background: var(--secondary-color);
   color: var(--primary-color);
-  width: 400px; 
+  /* width: 400px;  */
   
 }
 
@@ -135,6 +135,7 @@ nav  li {
   transition: 0.3s;
   border-radius: 5px; 
   margin: 20px 20px;
+  width: 400px;
 }
 
 .card:hover {
@@ -163,6 +164,7 @@ input {
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
+  width: 600px;
 }
 
 input:focus {
@@ -198,4 +200,12 @@ button:hover {
 button[disabled] {
   cursor: default;
   opacity: .8;
+}
+
+.contactInfo h3 {
+  margin: 5px;
+}
+
+.contactInfo h5 {
+  margin: 5px;
 }

@@ -35,15 +35,15 @@ function ContactForm() {
             <h1>Contact me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="name">Name:</label>
+                    <label htmlFor="name">Name:</label><br />
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
                 </div>
                 <div>
-                    <label htmlFor="email">Email address:</label>
+                    <label htmlFor="email">Email address:</label><br />
                     <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
                 </div>
                 <div>
-                    <label htmlFor="message">Message:</label>
+                    <label htmlFor="message">Message:</label><br />
                     <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
                 </div>
                 {errorMessage && (
@@ -54,6 +54,12 @@ function ContactForm() {
                 <br />
                 <button type="submit">Submit</button>
             </form>
+            <br />
+            <div className="contactInfo">
+                <h3>Mark Kanczuzewski</h3>
+                <h5>Email: mkanczuzewski@gmail.com</h5>
+                <h5>Phone: (248)515-8462</h5>
+            </div>
         </section>
       )
     }

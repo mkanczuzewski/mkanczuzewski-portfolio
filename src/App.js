@@ -18,12 +18,13 @@ class App extends Component {
       <HashRouter>
         <div>
           <header>
-              <h2> 
+              <h1> 
                   <a href="/">
                   <span role="img" aria-label="computer"> 🖥️</span> Mark Kanczuzewski
                   </a>
-              </h2>
-              <nav className="navbar">
+              </h1>
+              <nav>
+                  <h2>
                   <ul className="flex-row">
                       <li className="mx-2">
                           <NavLink to="/">About</NavLink>
@@ -38,6 +39,7 @@ class App extends Component {
                           <NavLink to="/contactform">Contact</NavLink>
                       </li>
                   </ul>
+                  </h2>
               </nav>
           </header>
           <main>
