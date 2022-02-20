@@ -6,24 +6,27 @@ import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
+  // const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <div>
       <Nav
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
+        // contactSelected={contactSelected}
+        // setContactSelected={setContactSelected}
       ></Nav>
       <main>
         <div>
-          {!contactSelected ? (
+          {/* {!contactSelected ? (
             <>
               <About></About>
               <Portfolio></Portfolio>
             </>
           ) : (
               <ContactForm></ContactForm>
-            )}
+            )} */}
+          <ContactForm></ContactForm>
+          <Portfolio></Portfolio>
+          <About></About>
         </div>
       </main>
     </div>
