@@ -1,50 +1,40 @@
-import React from 'react';
+// import React, { Component } from 'react';
+// import {
+//     Route,
+//     NavLink,
+//     HashRouter
+// } from "react-router-dom";
 
-// function Nav(props) {
-function Nav() {
-    // const {
-    //     contactSelected,
-    //     setContactSelected
-    //   } = props;
+// class Nav extends Component {
+//     render() {
 
-  return (
-    <header>
-        <h2> 
-            <a href="/">
-            <span role="img" aria-label="computer"> 🖥️</span> Mark Kanczuzewski
-            </a>
-        </h2>
-        <nav>
-            <ul className="flex-row">
-                <li className="mx-2">
-                    {/* <a href="#about" onClick={() => setContactSelected(false)}> */}
-                    <a href="#about">
-                        <span>About me</span>
-                    </a>
-                </li>
-                <li className="mx-2">
-                    <a href="#portfolio">
-                        <span>Portfolio</span>
-                    </a>
-                </li>
-                <li className="mx-2">
-                    <a href="#resume">
-                        <span>Resume</span>
-                    </a>
-                </li>
-                {/* <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                    <span onClick={() => setContactSelected(true)}>Contact</span>
-                </li> */}
-                <li className="mx-2">
-                    <a href="#contact">
-                        <span>Contact</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-  );
-}
+//         return (
+//             <header>
+//                 <h2> 
+//                     <a href="/">
+//                     <span role="img" aria-label="computer"> 🖥️</span> Mark Kanczuzewski
+//                     </a>
+//                 </h2>
+//                 <nav>
+//                     <ul className="flex-row">
+//                         <li className="mx-2">
+//                             <NavLink to="/">About</NavLink>
+//                         </li>
+//                         <li className="mx-2">
+//                             <NavLink to="/portfolio">Portfolio</NavLink>
+//                         </li>
+//                         <li className="mx-2">
+//                             <NavLink to="/resume">Resume</NavLink>
+//                         </li>
+//                         <li className="mx-2">
+//                             <NavLink to="/contactform">Contact</NavLink>
+//                         </li>
+//                     </ul>
+//                 </nav>
+//             </header>
+//         );
+//     }
+// }
 
-export default Nav; 
+// export default Nav; 
 
