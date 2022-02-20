@@ -7,7 +7,7 @@ main {
 
 :root {
   --primary: #8c54ff;
-  --secondary: #F3A847;
+  --secondary: #0004ff;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #000000;
@@ -77,6 +77,15 @@ nav  li {
   flex-wrap: wrap;
 }
 
+.mx-2 {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
+}
+
+.navActive {
+  color: var(--secondary);
+}
+
 /* aboutme */
 .aboutme {
   margin: 50px 50px;
@@ -139,8 +148,51 @@ nav  li {
   text-align: center;
 }
 
-.mx-2 {
-  margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
+/* Contact */
+form {
+  width: 60%;
 }
 
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 14px 40px;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  color: white;
+  background-color: var(--secondary);
+}
+
+button:hover {
+  opacity: .8;
+}
+
+button[disabled] {
+  cursor: default;
+  opacity: .8;
+}
