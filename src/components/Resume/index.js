@@ -24,7 +24,7 @@ class Resume extends Component {
                     <td>Project Management Institute</td>
                     <td>Project Management Professional (PMP)</td>
                     <td>2005</td>
-                    <td>Complete (1335718)</td>
+                    <td>Complete (1566117)</td>
                 </tr>
                 <tr>
                     <td>Walsh College</td>

@@ -152,6 +152,10 @@ nav  li {
   text-align: center;
 }
 
+.card-link:hover {
+  color: var(--secondary);
+}
+
 /* Contact */
 form {
   width: 60%;
