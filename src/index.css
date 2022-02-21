@@ -85,7 +85,7 @@ nav  li {
   margin-left: var(--spacing-two);
 }
 
-.navActive {
+.navdata {
   color: var(--secondary);
 }
 

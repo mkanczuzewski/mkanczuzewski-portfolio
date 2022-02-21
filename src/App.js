@@ -15,6 +15,10 @@ import Resume from './components/Resume';
 class App extends Component {
   render() {
 
+    let activeStyle = {
+      textDecoration: "purple wavy underline"
+    };
+
     return (
       <HashRouter>
         <div>
@@ -28,16 +32,16 @@ class App extends Component {
                   <h2>
                   <ul className="flex-row">
                       <li className="mx-2">
-                          <NavLink to="/">About</NavLink>
+                          <NavLink to="/" style={({ isActive }) => isActive ? activeStyle : undefined}>About</NavLink>
                       </li>
                       <li className="mx-2">
-                          <NavLink to="/portfolio">Portfolio</NavLink>
+                          <NavLink to="/portfolio" style={({ isActive }) => isActive ? activeStyle : undefined}>Portfolio</NavLink>
                       </li>
                       <li className="mx-2">
-                          <NavLink to="/resume">Resume</NavLink>
+                          <NavLink to="/resume" style={({ isActive }) => isActive ? activeStyle : undefined}>Resume</NavLink>
                       </li>
                       <li className="mx-2">
-                          <NavLink to="/contactform">Contact</NavLink>
+                          <NavLink to="/contactform" style={({ isActive }) => isActive ? activeStyle : undefined}>Contact</NavLink>
                       </li>
                   </ul>
                   </h2>
