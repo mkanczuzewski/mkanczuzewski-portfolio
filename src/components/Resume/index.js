@@ -5,6 +5,15 @@ class Resume extends Component {
       return (
         <section>
             <h1 className="resume">Resume</h1>
+            <div className="resumedownload">
+                <a
+                    href="https://docs.google.com/document/d/1ZgSXVD-9xCLYwIz2VwVTHZ59VGnh2DoOHiy57AOAQfw/edit?usp=sharing"
+                    download
+                >
+                    Click To Download File
+                </a>
+            </div>
+            <br />
             <hr class="rounded"></hr>
             <h2 className="education">Education</h2>
             <table>

@@ -220,6 +220,14 @@ button[disabled] {
 
 }
 
+.resumedownload {
+  text-align: center;
+}
+
+.resumedownload:hover {
+  text-decoration: underline;
+}
+
 .education {
   text-align: center;
   color: var(--primary);
