@@ -21,7 +21,7 @@ First, install google chrome, gitbash, visual studio code if you wish to review 
 This project is used to demonstraite the author's portfolio. <br />
 Screenshot: https://github.com/mkanczuzewski/mkanczuzewski-portfolio/public/img/HomepageSS.jpg <br />
 GitHub: https://github.com/mkanczuzewski/mkanczuzewski-portfolio <br />
-Website: 
+Website: https://mkanczuzewski.github.io/mkanczuzewski-portfolio/
 
 ## License
 https://opensource.org/licenses/ISC
