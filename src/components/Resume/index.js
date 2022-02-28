@@ -51,6 +51,27 @@ class Resume extends Component {
             <hr class="rounded"></hr>
             <h2 className="experience">Experience</h2>
             <div className="job">
+                <div className="job-title">Coding Bootcamp</div>
+                <div class="company">Michigan State University</div>
+                <div class="address"><a href='https://bootcamp.msu.edu'>https://bootcamp.msu.edu</a></div>
+                <div class="dates-emp">September 2021 - March 2022</div>
+                <br></br>
+                <div class="description">This full stack web developer program takes the student from the beginnings of HTML past Javascript and through the advanced subjects of React. Over the course of 24 weeks the student receives weekly lessons with homework and challenges, both of which produce individual programs. By the time it is done the student has completed 18 homework programs, 18 challenge programs, and 3 group projects.  </div>
+                <br></br>
+                <div class="achievements">
+                    <ul>
+                        <li>MERN: MongoDB, Express.js, React, Node.js</li>
+                        <li>Progressive Web Applications</li>
+                        <li>Mongoose CRUD paradigm</li> 
+                        <li>Model-View-Controller</li>
+                        <li>SQL</li>
+                        <li>Third Party APIs</li>
+                        <li>HTML, CSS, Git, Javascript</li>
+                        <br></br>
+                    </ul>
+                </div>
+            </div>
+            <div className="job">
                 <div className="job-title">Consultant Project Manager</div>
                 <div class="company">Conexess, Customer: Oakland County Information Technology Department</div>
                 <div class="address">1201 N Telegraph Rd, Pontiac, MI 48341, (248) 858-1800</div>
