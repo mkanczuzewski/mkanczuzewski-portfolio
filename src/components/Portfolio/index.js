@@ -36,14 +36,14 @@ class Portfolio extends Component {
                     <div className="card">
                         <img
                             className="card-img-top"
-                            src='img/Project3.jpg'
+                            src='img/project3.jpg'
                             alt="Project Website"
                         />
                         <div className="card-body">
-                            <h3 className="card-title">Project 3 Placeholder</h3>
-                            <p className="card-text">Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                            <div className="card-link"><a href='https://www.google.com' className='card-link'>Website</a></div>
-                            <div className="card-link"><a href='https://www.google.com' className='card-link'>GitHub</a></div>
+                            <h3 className="card-title">Coupon Magic</h3>
+                            <p className="card-text">Description: This is the final project for the course and featured a full MERN application. I built the Login, Portfolio, and Coupon Display screens and JSX logic.</p>
+                            <div className="card-link"><a href='https://marks-coupon-magic.herokuapp.com/' className='card-link'>Website</a></div>
+                            <div className="card-link"><a href='https://github.com/mkanczuzewski/coupon-magic' className='card-link'>GitHub</a></div>
                         </div>
                     </div>
                 </div>
