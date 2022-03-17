@@ -1,4 +1,10 @@
 import React, { Component } from "react";
+import project1 from "../../assets/img/listings-page.jpg"
+import project2 from "../../assets/img/Project2-SS.jpg"
+import project3 from "../../assets/img/project3.jpg"
+import challenge1 from "../../assets/img/PWA-SS.jpg"
+import challenge2 from "../../assets/img/NoSQL-SS.jpg"
+import challenge3 from "../../assets/img/techblog-SS.jpg"
 
 class Portfolio extends Component {
     render() {
@@ -10,7 +16,7 @@ class Portfolio extends Component {
                     <div className="card">
                         <img
                             className="card-img-top"
-                            src='img/listings-page.jpg'
+                            src={project1}
                             alt="Project Website"
                         />
                         <div className="card-body" >
@@ -23,7 +29,7 @@ class Portfolio extends Component {
                     <div className="card">
                         <img
                             className="card-img-top"
-                            src='img/Project2-SS.jpg'
+                            src={project2}
                             alt="Project Website"
                         />
                         <div className="card-body">
@@ -36,7 +42,7 @@ class Portfolio extends Component {
                     <div className="card">
                         <img
                             className="card-img-top"
-                            src='img/project3.jpg'
+                            src={project3}
                             alt="Project Website"
                         />
                         <div className="card-body">
@@ -54,7 +60,7 @@ class Portfolio extends Component {
                     <div className="card">
                         <img
                             className="card-img-top"
-                            src='img/PWA-SS.jpg'
+                            src={challenge1}
                             alt="Project Website"
                         />
                         <div className="card-body" >
@@ -68,7 +74,7 @@ class Portfolio extends Component {
                         <div className="card">
                             <img
                                 className="card-img-top"
-                                src='img/NoSQL-SS.jpg'
+                                src={challenge2}
                                 alt="Project Website"
                             />
                             <div className="card-body" >
@@ -84,7 +90,7 @@ class Portfolio extends Component {
                         <div className="card">
                             <img
                                 className="card-img-top"
-                                src='img/techblog-SS.jpg'
+                                src={challenge3}
                                 alt="Project Website"
                             />
                             <div className="card-body" >
