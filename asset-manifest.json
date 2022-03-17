@@ -1,16 +1,22 @@
 {
   "files": {
     "main.css": "/mkanczuzewski-portfolio/static/css/main.cb8f1e32.css",
-    "main.js": "/mkanczuzewski-portfolio/static/js/main.b76e1ef6.js",
+    "main.js": "/mkanczuzewski-portfolio/static/js/main.9951f67e.js",
     "static/js/787.9ba78154.chunk.js": "/mkanczuzewski-portfolio/static/js/787.9ba78154.chunk.js",
+    "static/media/listings-page.jpg": "/mkanczuzewski-portfolio/static/media/listings-page.58714ee8b519de9dec07.jpg",
+    "static/media/project3.jpg": "/mkanczuzewski-portfolio/static/media/project3.2b16adfc3a735f7f1740.jpg",
+    "static/media/Project2-SS.jpg": "/mkanczuzewski-portfolio/static/media/Project2-SS.8b5e43a570f350765784.jpg",
+    "static/media/NoSQL-SS.jpg": "/mkanczuzewski-portfolio/static/media/NoSQL-SS.30fe66eb90082df181ea.jpg",
+    "static/media/techblog-SS.jpg": "/mkanczuzewski-portfolio/static/media/techblog-SS.73ce98e923abc86f2564.jpg",
+    "static/media/PWA-SS.jpg": "/mkanczuzewski-portfolio/static/media/PWA-SS.024eece2f50b950c8edc.jpg",
     "static/media/cover-image.jpg": "/mkanczuzewski-portfolio/static/media/cover-image.e1820d739e695bf10790.jpg",
     "index.html": "/mkanczuzewski-portfolio/index.html",
     "main.cb8f1e32.css.map": "/mkanczuzewski-portfolio/static/css/main.cb8f1e32.css.map",
-    "main.b76e1ef6.js.map": "/mkanczuzewski-portfolio/static/js/main.b76e1ef6.js.map",
+    "main.9951f67e.js.map": "/mkanczuzewski-portfolio/static/js/main.9951f67e.js.map",
     "787.9ba78154.chunk.js.map": "/mkanczuzewski-portfolio/static/js/787.9ba78154.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb8f1e32.css",
-    "static/js/main.b76e1ef6.js"
+    "static/js/main.9951f67e.js"
   ]
 }
